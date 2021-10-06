@@ -119,7 +119,7 @@ module-margin-left = 0
 module-margin-right = 0
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
-font-0 = "Fira Code Nerd Font:size=12;3"
+font-0 = "Fira Code Nerd Font:size=12:weight=bold;3"
 font-1 = "Fira Code Nerd Font:size=16;3"
 font-2 = "Fira Code Nerd Font:style=Regular:pixelsize=8;1"
 font-3 = "Fira Code Nerd Font:style=Solid:pixelsize=8;1"
@@ -544,13 +544,13 @@ interval = 5
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
 date = "%a %b %d"
-date-alt = " %a %b %d"
-time = %l:%M%p
+date-alt = "%a %b %d"
+time = %I:%M%p
 time-alt = %l:%M%p
-format = "  <label>"
+format = " <label>"
 format-foreground = #fefefe
 format-background = #668bd7
-label = "%date% %time%"
+label = " %date% - %time%"
 
 #################################################################
 
